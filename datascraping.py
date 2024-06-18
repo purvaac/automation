@@ -21,6 +21,7 @@ USER_AGENTS = [
 def get_random_user_agent():
     return random.choice(USER_AGENTS)
 
+#Scrapes product information from Amazon
 def scrape_amazon_product(url):
     headers = {'User-Agent': get_random_user_agent()}
     try:
