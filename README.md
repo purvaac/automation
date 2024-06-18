@@ -46,6 +46,7 @@ Run the script using Python:
 ```bash
 python datascapping.py
 ```
+The script will attempt to scrape product data from the provided Amazon URL and save it to amazon_product_data.csv. Logs will be recorded in amazon_scraper.log.
 
 ### login.py
 
@@ -60,4 +61,5 @@ Run the script using Python:
 ```bash
 python login.py
 ```
+Upon running the script, a browser window will open, login to Stack Overflow, and perform necessary actions. Logs will be generated in automation.log.
 
